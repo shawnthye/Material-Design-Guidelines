@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_whats_new"
+            android:icon="@drawable/ic_new_releases_black_24dp"
+            android:title="What’s new"/>
+    </group>
+
+    <item android:title="Components">
+        <menu>
+            <item
+                android:id="@+id/nav_bottom_navigation"
+                android:checkable="true"
+                android:title="Bottom navigation"/>
+            <item
+                android:id="@+id/nav_bottom_sheets"
+                android:checkable="true"
+                android:title="Bottom sheets"/>
+        </menu>
+    </item>
+
+    <item android:title="Patterns">
+        <menu>
+            <item
+                android:id="@+id/nav_scrolling_techniques"
+                android:checkable="false"
+                android:title="Scrolling techniques"/>
+            <item
+                android:id="@+id/nav_swipe_to_refresh"
+                android:checkable="false"
+                android:title="Swipe to refresh"/>
+        </menu>
+    </item>
+
+    <item android:title="Growth &amp; communications">
+        <menu>
+            <item
+                android:id="@+id/nav_on_boarding"
+                android:checkable="false"
+                android:title="Onboarding"/>
+            <item
+                android:id="@+id/nav_feature_discover"
+                android:checkable="false"
+                android:title="Feature discovery"/>
+        </menu>
+    </item>
+
+</menu>
